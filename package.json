@@ -1,0 +1,41 @@
+{
+  "name": "vue-week6-javascript",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
+    "@fortawesome/vue-fontawesome": "^3.0.3",
+    "@popperjs/core": "^2.11.6",
+    "@vee-validate/i18n": "^4.7.4",
+    "@vee-validate/rules": "^4.7.4",
+    "axios": "^1.3.3",
+    "bootstrap": "^5.2.3",
+    "pinia": "^2.0.28",
+    "vee-validate": "^4.7.4",
+    "vue": "^3.2.45",
+    "vue-awesome-paginate": "^1.1.46",
+    "vue-loading-overlay": "^6.0.3",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.4",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.9.0",
+    "prettier": "^2.8.4",
+    "sass": "^1.58.2",
+    "vite": "^4.0.0",
+    "vite-plugin-eslint": "^1.8.1"
+  }
+}
